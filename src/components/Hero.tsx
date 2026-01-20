@@ -1,0 +1,64 @@
+import { ArrowRight } from 'lucide-react';
+
+export default function Hero() {
+  const scrollToSimulator = () => {
+    const element = document.getElementById('simulador');
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
+  return (
+    <section className="relative pt-24 pb-16 md:pt-32 md:pb-24 bg-gradient-to-br from-blue-50 via-white to-blue-50">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="grid md:grid-cols-2 gap-12 items-center">
+          <div>
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight mb-6">
+              Proteja o que é mais importante para si
+            </h1>
+            <p className="text-lg md:text-xl text-gray-600 mb-8">
+              Seguros simples, transparentes e acessíveis.
+              Desde €2,30/mês. Sem complicações, sem letras pequenas.
+            </p>
+            <div className="flex flex-col sm:flex-row gap-4">
+              <button
+                onClick={scrollToSimulator}
+                className="bg-blue-600 text-white px-8 py-4 rounded-lg hover:bg-blue-700 transition flex items-center justify-center space-x-2 text-lg font-semibold shadow-lg"
+              >
+                <span>Simular Seguro</span>
+                <ArrowRight className="h-5 w-5" />
+              </button>
+              <button
+                onClick={() => document.getElementById('seguros')?.scrollIntoView({ behavior: 'smooth' })}
+                className="border-2 border-blue-600 text-blue-600 px-8 py-4 rounded-lg hover:bg-blue-50 transition text-lg font-semibold"
+              >
+                Ver Seguros
+              </button>
+            </div>
+            <div className="mt-12 grid grid-cols-3 gap-6">
+              <div>
+                <div className="text-3xl font-bold text-blue-600">50k+</div>
+                <div className="text-sm text-gray-600">Clientes</div>
+              </div>
+              <div>
+                <div className="text-3xl font-bold text-blue-600">98%</div>
+                <div className="text-sm text-gray-600">Satisfação</div>
+              </div>
+              <div>
+                <div className="text-3xl font-bold text-blue-600">24/7</div>
+                <div className="text-sm text-gray-600">Suporte</div>
+              </div>
+            </div>
+          </div>
+          <div className="hidden md:block">
+            <img
+              src="https://images.pexels.com/photos/4386373/pexels-photo-4386373.jpeg?auto=compress&cs=tinysrgb&w=1200"
+              alt="Família feliz protegida"
+              className="rounded-2xl shadow-2xl"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+}
