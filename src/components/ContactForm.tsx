@@ -76,7 +76,7 @@ export default function ContactForm() {
                 <div>
                   <div className="font-semibold text-gray-900 mb-1">Telefone</div>
                   <a href="tel:+351210000000" className="text-gray-600 hover:text-blue-600">
-                    +351 210 000 000
+                    +351 262 562 999
                   </a>
                 </div>
               </div>
@@ -91,7 +91,7 @@ export default function ContactForm() {
                     href="mailto:contacto@segurotop.pt"
                     className="text-gray-600 hover:text-blue-600"
                   >
-                    contacto@segurotop.pt
+                    geral@jorgemarquesseguros.com
                   </a>
                 </div>
               </div>
