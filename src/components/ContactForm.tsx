@@ -107,6 +107,8 @@ export default function ContactForm() {
                     2450-168 Nazaré, Portugal
                   </p>
                   <p></p>
+                  <p></p>
+                  <p></p>
                   <p className="text-gray-600">
                     R. Heróis do Ultramar, 41<br />
                     2450-027 Famalicão, Portugal
