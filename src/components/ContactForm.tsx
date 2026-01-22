@@ -99,22 +99,25 @@ export default function ContactForm() {
                 <div className="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center mr-4 flex-shrink-0">
                   <MapPin className="h-6 w-6 text-blue-600" />
                 </div>
+              
                 <div>
                   <div className="font-semibold text-gray-900 mb-1">Morada</div>
+              
                   <a
                     href="https://www.google.com/maps/search/?api=1&query=R.+Heróis+do+Ultramar,+41,+2450-027+Famalicão,+Portugal"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-gray-600 hover:text-blue-600"
+                    className="block text-gray-600 hover:text-blue-600 hover:underline mb-2"
                   >
                     R. Heróis do Ultramar, 41<br />
                     2450-027 Famalicão, Portugal
                   </a>
+              
                   <a
                     href="https://www.google.com/maps/search/?api=1&query=R.+Alves+Redol,+Loja+25,+2450-168+Nazaré,+Portugal"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-gray-600 hover:text-blue-600"
+                    className="block text-gray-600 hover:text-blue-600 hover:underline"
                   >
                     R. Alves Redol, Loja 25<br />
                     2450-168 Nazaré, Portugal
