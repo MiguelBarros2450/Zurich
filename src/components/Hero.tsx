@@ -14,7 +14,7 @@ export default function Hero() {
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight mb-6">
-              Proteja o que é mais importante para si
+              Seguramos o presente, asseguramos o futuro.
             </h1>
             <p className="text-lg md:text-xl text-gray-600 mb-8">
               Seguros simples, transparentes e acessíveis.
