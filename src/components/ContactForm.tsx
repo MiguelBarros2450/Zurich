@@ -103,16 +103,13 @@ export default function ContactForm() {
                 <div>
                   <div className="font-semibold text-gray-900 mb-1">Morada</div>
                   <p className="text-gray-600">
-                    R. Alves Redol, Loja 25<br />
-                    2450-168 Nazaré, Portugal
-                  </p>
-                  <p></p>
-                  <p></p>
-                  <p></p>
-                  <b></b>
-                  <p className="text-gray-600">
                     R. Heróis do Ultramar, 41<br />
                     2450-027 Famalicão, Portugal
+                  </p>
+                  <div></div>
+                  <p className="text-gray-600">
+                    R. Alves Redol, Loja 25<br />
+                    2450-168 Nazaré, Portugal
                   </p>
                 </div>
               </div>
