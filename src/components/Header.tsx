@@ -23,7 +23,7 @@ export default function Header() {
             className="flex items-center space-x-3"
           >
             <img
-              src="/JMseguros-BG.png"
+              href="/src/JMseguros-BG.png"
               alt="Jorge Marques Seguros"
               className="h-8 w-8 object-contain"
             />
