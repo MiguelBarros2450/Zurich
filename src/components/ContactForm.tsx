@@ -106,7 +106,7 @@ export default function ContactForm() {
                     R. Heróis do Ultramar, 41<br />
                     2450-027 Famalicão, Portugal
                   </p>
-                  <div></div>
+                  <div className="font-semibold text-gray-900 mb-1"></div>
                   <p className="text-gray-600">
                     R. Alves Redol, Loja 25<br />
                     2450-168 Nazaré, Portugal
