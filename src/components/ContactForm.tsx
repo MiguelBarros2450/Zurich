@@ -107,7 +107,7 @@ export default function ContactForm() {
                     href="https://www.google.com/maps/search/?api=1&query=R.+Heróis+do+Ultramar,+41,+2450-027+Famalicão,+Portugal"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="block text-gray-600 hover:text-blue-600"
+                    className="block text-gray-600 hover:text-blue-600 mb-4"
                   >
                     R. Heróis do Ultramar, 41<br />
                     2450-027 Famalicão, Portugal
