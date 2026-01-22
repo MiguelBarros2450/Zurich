@@ -56,7 +56,7 @@ export default function Footer() {
                   onClick={() => scrollToSection('simulador')}
                   className="text-sm hover:text-blue-500 transition"
                 >
-                  Seguro Auto
+                  Automóvel
                 </button>
               </li>
               <li>
@@ -64,7 +64,7 @@ export default function Footer() {
                   onClick={() => scrollToSection('simulador')}
                   className="text-sm hover:text-blue-500 transition"
                 >
-                  Seguro Moto
+                  Motociclo
                 </button>
               </li>
               <li>
@@ -72,7 +72,7 @@ export default function Footer() {
                   onClick={() => scrollToSection('simulador')}
                   className="text-sm hover:text-blue-500 transition"
                 >
-                  Seguro Casa
+                  Casa
                 </button>
               </li>
               <li>
@@ -80,7 +80,7 @@ export default function Footer() {
                   onClick={() => scrollToSection('simulador')}
                   className="text-sm hover:text-blue-500 transition"
                 >
-                  Seguro Saúde
+                  Saúde
                 </button>
               </li>
               <li>
@@ -88,7 +88,31 @@ export default function Footer() {
                   onClick={() => scrollToSection('simulador')}
                   className="text-sm hover:text-blue-500 transition"
                 >
-                  Seguro Vida
+                  Vida
+                </button>
+              </li>
+              <li>
+                <button
+                  onClick={() => scrollToSection('simulador')}
+                  className="text-sm hover:text-blue-500 transition"
+                >
+                  Viagem
+                </button>
+              </li>
+              <li>
+                <button
+                  onClick={() => scrollToSection('simulador')}
+                  className="text-sm hover:text-blue-500 transition"
+                >
+                  Animal
+                </button>
+              </li>
+              <li>
+                <button
+                  onClick={() => scrollToSection('simulador')}
+                  className="text-sm hover:text-blue-500 transition"
+                >
+                  Bicicleta & Trotineta
                 </button>
               </li>
             </ul>
