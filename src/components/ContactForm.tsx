@@ -88,7 +88,7 @@ export default function ContactForm() {
                 <div>
                   <div className="font-semibold text-gray-900 mb-1">Email</div>
                   <a
-                    href="mailto:contacto@segurotop.pt"
+                    href="mailto:geral@jorgemarquesseguros.com"
                     className="text-gray-600 hover:text-blue-600"
                   >
                     geral@jorgemarquesseguros.com
