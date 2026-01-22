@@ -18,7 +18,7 @@ export default function Footer() {
               <span className="text-xl font-bold text-white">Jorge Marques Seguros</span>
             </div>
             <p className="text-sm text-gray-400 mb-6">
-              Seguros simples, transparentes e acessíveis para todos os portugueses.
+              Seguramos o presente, asseguramos o futuro.
             </p>
             <div className="flex space-x-4">
               <a
