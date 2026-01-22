@@ -75,7 +75,7 @@ export default function ContactForm() {
                 </div>
                 <div>
                   <div className="font-semibold text-gray-900 mb-1">Telefone</div>
-                  <a href="tel:+351210000000" className="text-gray-600 hover:text-blue-600">
+                  <a href="tel:+351 262 562 999" className="text-gray-600 hover:text-blue-600">
                     +351 262 562 999
                   </a>
                 </div>
