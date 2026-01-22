@@ -102,17 +102,27 @@ export default function ContactForm() {
                 </div>
                 <div>
                   <div className="font-semibold text-gray-900 mb-1">Morada</div>
-                  <p className="text-gray-600">
-                    R. Heróis do Ultramar, 41<br />
-                    2450-027 Famalicão, Portugal
-                  </p>
-                  <div className="font-semibold text-gray-900 mb-1"></div>
-                  <p className="text-gray-600">
-                    R. Alves Redol, Loja 25<br />
-                    2450-168 Nazaré, Portugal
-                  </p>
-                </div>
-              </div>
+                  <a
+                    href="https://www.google.com/maps/search/?api=1&query=R.+Heróis+do+Ultramar,+41,+2450-027+Famalicão,+Portugal"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-gray-600 hover:text-blue-600 hover:underline block mb-2"
+                  >
+              R. Heróis do Ultramar, 41<br />
+              2450-027 Famalicão, Portugal
+    </a>
+
+    <a
+      href="https://www.google.com/maps/search/?api=1&query=R.+Alves+Redol,+Loja+25,+2450-168+Nazaré,+Portugal"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="text-gray-600 hover:text-blue-600 hover:underline"
+    >
+      R. Alves Redol, Loja 25<br />
+      2450-168 Nazaré, Portugal
+    </a>
+  </div>
+</div>
             </div>
           </div>
 
