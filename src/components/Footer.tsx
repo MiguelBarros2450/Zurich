@@ -105,21 +105,6 @@ export default function Footer() {
                   Sobre Nós
                 </button>
               </li>
-              <li>
-                <a href="#" className="text-sm hover:text-blue-500 transition">
-                  Carreiras
-                </a>
-              </li>
-              <li>
-                <a href="#" className="text-sm hover:text-blue-500 transition">
-                  Imprensa
-                </a>
-              </li>
-              <li>
-                <a href="#" className="text-sm hover:text-blue-500 transition">
-                  Blog
-                </a>
-              </li>
             </ul>
           </div>
 
@@ -156,7 +141,7 @@ export default function Footer() {
         <div className="border-t border-gray-800 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
             <p className="text-sm text-gray-400">
-              &copy; {new Date().getFullYear()} SeguroTOP. Todos os direitos reservados.
+              &copy; {new Date().getFullYear()} Jorge Marques Seguros. Todos os direitos reservados.
             </p>
             <div className="flex space-x-6 text-sm">
               <a href="#" className="hover:text-blue-500 transition">
