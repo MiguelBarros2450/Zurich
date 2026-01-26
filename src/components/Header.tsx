@@ -36,35 +36,35 @@ export default function Header() {
           <div className="hidden md:flex items-center space-x-8">
             <button
               onClick={() => scrollToSection('seguros')}
-              className="text-gray-700 hover:text-blue-600 transition"
+              className="text-gray-700 hover:text-[#215ba4] transition"
             >
               Seguros
             </button>
 
             <button
               onClick={() => scrollToSection('simulador')}
-              className="text-gray-700 hover:text-blue-600 transition"
+              className="text-gray-700 hover:text-[#215ba4] transition"
             >
               Simulador
             </button>
 
             <button
               onClick={() => scrollToSection('vantagens')}
-              className="text-gray-700 hover:text-blue-600 transition"
+              className="text-gray-700 hover:text-[#215ba4] transition"
             >
               Vantagens
             </button>
 
             <button
               onClick={() => scrollToSection('contacto')}
-              className="text-gray-700 hover:text-blue-600 transition"
+              className="text-gray-700 hover:text-[#215ba4] transition"
             >
               Contacto
             </button>
 
             <button
               onClick={() => scrollToSection('simulador')}
-              className="bg-blue-600 text-white px-6 py-2 rounded-lg hover:bg-blue-700 transition"
+              className="bg-[#215ba4]text-white px-6 py-2 rounded-lg hover:bg-blue-700 transition"
             >
               Simular Agora
             </button>
