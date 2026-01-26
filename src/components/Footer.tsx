@@ -1,8 +1,11 @@
-import { Shield, Facebook, Instagram, Linkedin, Twitter } from 'lucide-react';
-
+import { Facebook, Instagram } from 'lucide-react';
 export default function Footer() {
-  const currentYear = new Date().getFullYear();
-
+  const scrollToSection = (id: string) => {
+    const element = document.getElementById(id);
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
   return (
     <footer className="bg-gray-900 text-white py-12">
       <div className="container mx-auto px-4">
