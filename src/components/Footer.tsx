@@ -10,23 +10,17 @@ export default function Footer() {
           <div>
             <div className="flex items-center space-x-2 mb-4">
               <Shield className="w-8 h-8 text-blue-400" />
-              <span className="text-2xl font-bold">SeguroTotal</span>
+              <span className="text-2xl font-bold">Jorge Marques Seguros</span>
             </div>
             <p className="text-gray-400 mb-4">
               Protegendo o que é mais importante para si desde 1998.
             </p>
             <div className="flex space-x-4">
-              <a href="#" className="text-gray-400 hover:text-blue-400 transition">
+              <a href="https://www.facebook.com/jorgemarquesseguros" className="text-gray-400 hover:text-blue-400 transition">
                 <Facebook className="w-5 h-5" />
               </a>
-              <a href="#" className="text-gray-400 hover:text-blue-400 transition">
+              <a href="https://www.instagram.com/jorgemarquesseguros" className="text-gray-400 hover:text-blue-400 transition">
                 <Instagram className="w-5 h-5" />
-              </a>
-              <a href="#" className="text-gray-400 hover:text-blue-400 transition">
-                <Linkedin className="w-5 h-5" />
-              </a>
-              <a href="#" className="text-gray-400 hover:text-blue-400 transition">
-                <Twitter className="w-5 h-5" />
               </a>
             </div>
           </div>
