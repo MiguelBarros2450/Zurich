@@ -75,7 +75,7 @@ export default function ContactForm() {
                 </div>
                 <div>
                   <div className="font-semibold text-gray-900 mb-1">Telefone</div>
-                  <a href="tel:+351 262 562 999" className="text-gray-600 hover:text-blue-600">
+                  <a href="tel:+351 262 562 999" className="text-gray-600 hover:text-[#215ba4]">
                     +351 262 562 999
                   </a>
                 </div>
@@ -89,7 +89,7 @@ export default function ContactForm() {
                   <div className="font-semibold text-gray-900 mb-1">Email</div>
                   <a
                     href="mailto:geral@jorgemarquesseguros.com"
-                    className="text-gray-600 hover:text-blue-600"
+                    className="text-gray-600 hover:text-[#215ba4]"
                   >
                     geral@jorgemarquesseguros.com
                   </a>
@@ -107,7 +107,7 @@ export default function ContactForm() {
                     href="https://www.google.com/maps/search/?api=1&query=R.+Heróis+do+Ultramar,+41,+2450-027+Famalicão,+Portugal"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="block text-gray-600 hover:text-blue-600 mb-2"
+                    className="block text-gray-600 hover:text-[#215ba4] mb-2"
                   >
                     R. Heróis do Ultramar, 41<br />
                     2450-027 Famalicão, Portugal
@@ -117,7 +117,7 @@ export default function ContactForm() {
                     href="https://www.google.com/maps/search/?api=1&query=R.+Alves+Redol,+Loja+25,+2450-168+Nazaré,+Portugal"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="block text-gray-600 hover:text-blue-600"
+                    className="block text-gray-600 hover:text-[#215ba4]"
                   >
                     R. Alves Redol, Loja 25<br />
                     2450-168 Nazaré, Portugal
