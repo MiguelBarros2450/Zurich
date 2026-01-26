@@ -35,18 +35,18 @@ export default function Hero() {
                 Ver Seguros
               </button>
             </div>
-            <div className="mt-12 grid grid-cols-3 gap-6">
-              <div>
-                <div className="text-3xl font-bold text-blue-600">50k+</div>
-                <div className="text-sm text-gray-600">Clientes</div>
+            <div className="space-y-3">
+              <div className="flex items-center space-x-2">
+                <CheckCircle className="w-5 h-5 text-green-600" />
+                <span className="text-gray-700">Mais de 50.000 clientes satisfeitos</span>
               </div>
-              <div>
-                <div className="text-3xl font-bold text-blue-600">98%</div>
-                <div className="text-sm text-gray-600">Satisfação</div>
+              <div className="flex items-center space-x-2">
+                <CheckCircle className="w-5 h-5 text-green-600" />
+                <span className="text-gray-700">Atendimento 24/7</span>
               </div>
-              <div>
-                <div className="text-3xl font-bold text-blue-600">24/7</div>
-                <div className="text-sm text-gray-600">Suporte</div>
+              <div className="flex items-center space-x-2">
+                <CheckCircle className="w-5 h-5 text-green-600" />
+                <span className="text-gray-700">Processos rápidos e simples</span>
               </div>
             </div>
           </div>
