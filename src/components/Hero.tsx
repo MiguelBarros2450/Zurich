@@ -30,7 +30,7 @@ export default function Hero() {
               </button>
               <button
                 onClick={() => document.getElementById('seguros')?.scrollIntoView({ behavior: 'smooth' })}
-                className="border-2 border-[#215ba4] text-[#215ba4] px-8 py-4 rounded-lg hover:bg-[#1c4d8a] transition text-lg font-semibold"
+                className="border-2 border-[#215ba4] text-[#215ba4] px-8 py-4 rounded-lg hover:text-[#1c4d8a] hover:border-[#1c4d8a] hover:bg-transparent transition-colors text-lg font-semibold"
               >
                 Ver Seguros
               </button>
