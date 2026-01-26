@@ -75,8 +75,8 @@ export default function ContactForm() {
                 </div>
                 <div>
                   <div className="font-semibold text-gray-900 mb-1">Telefone</div>
-                  <a href="tel:+351 262 562 999" className="text-gray-600 hover:text-[#215ba4]">
-                    +351 262 562 999
+                  <a href="tel:+351210000000" className="text-gray-600 hover:text-blue-600">
+                    +351 210 000 000
                   </a>
                 </div>
               </div>
@@ -88,44 +88,29 @@ export default function ContactForm() {
                 <div>
                   <div className="font-semibold text-gray-900 mb-1">Email</div>
                   <a
-                    href="mailto:geral@jorgemarquesseguros.com"
-                    className="text-gray-600 hover:text-[#215ba4]"
+                    href="mailto:contacto@segurotop.pt"
+                    className="text-gray-600 hover:text-blue-600"
                   >
-                    geral@jorgemarquesseguros.com
+                    contacto@segurotop.pt
                   </a>
                 </div>
               </div>
+
               <div className="flex items-start">
                 <div className="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center mr-4 flex-shrink-0">
                   <MapPin className="h-6 w-6 text-blue-600" />
                 </div>
-              
                 <div>
                   <div className="font-semibold text-gray-900 mb-1">Morada</div>
-              
-                  <a
-                    href="https://www.google.com/maps/search/?api=1&query=R.+Heróis+do+Ultramar,+41,+2450-027+Famalicão,+Portugal"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="block text-gray-600 hover:text-[#215ba4] mb-2"
-                  >
-                    R. Heróis do Ultramar, 41<br />
-                    2450-027 Famalicão, Portugal
-                  </a>
-              
-                  <a
-                    href="https://www.google.com/maps/search/?api=1&query=R.+Alves+Redol,+Loja+25,+2450-168+Nazaré,+Portugal"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="block text-gray-600 hover:text-[#215ba4]"
-                  >
-                    R. Alves Redol, Loja 25<br />
-                    2450-168 Nazaré, Portugal
-                  </a>
+                  <p className="text-gray-600">
+                    Avenida da Liberdade, 123<br />
+                    1250-096 Lisboa, Portugal
+                  </p>
                 </div>
               </div>
             </div>
           </div>
+
           <div className="bg-white rounded-2xl p-8 shadow-lg">
             {isSuccess ? (
               <div className="text-center py-12">
