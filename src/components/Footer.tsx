@@ -33,18 +33,6 @@ export default function Footer() {
               >
                 <Instagram className="h-5 w-5" />
               </a>
-              <a
-                href="#"
-                className="w-10 h-10 bg-gray-800 rounded-lg flex items-center justify-center hover:bg-[#215ba4] transition"
-              >
-                <Linkedin className="h-5 w-5" />
-              </a>
-              <a
-                href="#"
-                className="w-10 h-10 bg-gray-800 rounded-lg flex items-center justify-center hover:bg-[#215ba4] transition"
-              >
-                <Twitter className="h-5 w-5" />
-              </a>
             </div>
           </div>
 
@@ -54,7 +42,7 @@ export default function Footer() {
               <li>
                 <button
                   onClick={() => scrollToSection('simulador')}
-                  className="text-sm hover:bg-[#215ba4] transition"
+                  className="text-sm hover:text-[#215ba4] transition"
                 >
                   Seguro Auto
                 </button>
@@ -62,7 +50,7 @@ export default function Footer() {
               <li>
                 <button
                   onClick={() => scrollToSection('simulador')}
-                  className="text-sm hover:bg-[#215ba4] transition"
+                  className="text-sm hover:text-[#215ba4] transition"
                 >
                   Seguro Moto
                 </button>
@@ -70,7 +58,7 @@ export default function Footer() {
               <li>
                 <button
                   onClick={() => scrollToSection('simulador')}
-                  className="text-sm hover:bg-[#215ba4] transition"
+                  className="text-sm hover:text-[#215ba4] transition"
                 >
                   Seguro Casa
                 </button>
@@ -78,7 +66,7 @@ export default function Footer() {
               <li>
                 <button
                   onClick={() => scrollToSection('simulador')}
-                  className="text-sm hover:bg-[#215ba4] transition"
+                  className="text-sm hover:text-[#215ba4] transition"
                 >
                   Seguro Saúde
                 </button>
@@ -86,7 +74,7 @@ export default function Footer() {
               <li>
                 <button
                   onClick={() => scrollToSection('simulador')}
-                  className="text-sm hover:bg-[#215ba4] transition"
+                  className="text-sm hover:text-[#215ba4] transition"
                 >
                   Seguro Vida
                 </button>
@@ -100,23 +88,23 @@ export default function Footer() {
               <li>
                 <button
                   onClick={() => scrollToSection('vantagens')}
-                  className="text-sm hover:bg-[#215ba4] transition"
+                  className="text-sm hover:text-[#215ba4] transition"
                 >
                   Sobre Nós
                 </button>
               </li>
               <li>
-                <a href="#" className="text-sm hover:bg-[#215ba4] transition">
+                <a href="#" className="text-sm hover:text-[#215ba4] transition">
                   Carreiras
                 </a>
               </li>
               <li>
-                <a href="#" className="text-sm hover:bg-[#215ba4] transition">
+                <a href="#" className="text-sm hover:text-[#215ba4] transition">
                   Imprensa
                 </a>
               </li>
               <li>
-                <a href="#" className="text-sm hover:bg-[#215ba4] transition">
+                <a href="#" className="text-sm hover:text-[#215ba4] transition">
                   Blog
                 </a>
               </li>
@@ -129,23 +117,23 @@ export default function Footer() {
               <li>
                 <button
                   onClick={() => scrollToSection('contacto')}
-                  className="text-sm hover:bg-[#215ba4] transition"
+                  className="text-sm hover:text-[#215ba4] transition"
                 >
                   Contactos
                 </button>
               </li>
               <li>
-                <a href="#" className="text-sm hover:bg-[#215ba4] transition">
+                <a href="#" className="text-sm hover:text-[#215ba4] transition">
                   FAQs
                 </a>
               </li>
               <li>
-                <a href="#" className="text-sm hover:bg-[#215ba4] transition">
+                <a href="#" className="text-sm hover:text-[#215ba4] transition">
                   Sinistros
                 </a>
               </li>
               <li>
-                <a href="#" className="text-sm hover:bg-[#215ba4]0 transition">
+                <a href="#" className="text-sm hover:text-[#215ba4]0 transition">
                   Área de Cliente
                 </a>
               </li>
@@ -159,13 +147,13 @@ export default function Footer() {
               &copy; {new Date().getFullYear()} SeguroTOP. Todos os direitos reservados.
             </p>
             <div className="flex space-x-6 text-sm">
-              <a href="#" className="hover:bg-[#215ba4] transition">
+              <a href="#" className="hover:text-[#215ba4] transition">
                 Política de Privacidade
               </a>
-              <a href="#" className="hover:bg-[#215ba4] transition">
+              <a href="#" className="hover:text-[#215ba4] transition">
                 Termos de Serviço
               </a>
-              <a href="#" className="hover:bg-[#215ba4] transition">
+              <a href="#" className="hover:text-[#215ba4] transition">
                 Cookies
               </a>
             </div>
