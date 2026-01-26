@@ -23,14 +23,14 @@ export default function Hero() {
             <div className="flex flex-col sm:flex-row gap-4">
               <button
                 onClick={scrollToSimulator}
-                className="bg-blue-600 text-white px-8 py-4 rounded-lg hover:bg-blue-700 transition flex items-center justify-center space-x-2 text-lg font-semibold shadow-lg"
+                className="bg-[#215ba4] text-white px-8 py-4 rounded-lg hover:bg-[#1c4d8a] transition flex items-center justify-center space-x-2 text-lg font-semibold shadow-lg"
               >
                 <span>Simular Seguro</span>
                 <ArrowRight className="h-5 w-5" />
               </button>
               <button
                 onClick={() => document.getElementById('seguros')?.scrollIntoView({ behavior: 'smooth' })}
-                className="border-2 border-blue-600 text-blue-600 px-8 py-4 rounded-lg hover:bg-blue-50 transition text-lg font-semibold"
+                className="border-2 border-[#215ba4] text-[#215ba4] px-8 py-4 rounded-lg hover:bg-[#1c4d8a] transition text-lg font-semibold"
               >
                 Ver Seguros
               </button>
