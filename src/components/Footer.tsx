@@ -51,7 +51,7 @@ export default function Footer() {
               <li>
                 <button
                   onClick={() => scrollToSection('simulador')}
-                  className="text-sm hover:bg-[#215ba4] transition"
+                  className="text-sm hover:text-[#215ba4] transition"
                 >
                   Automóvel
                 </button>
@@ -59,7 +59,7 @@ export default function Footer() {
               <li>
                 <button
                   onClick={() => scrollToSection('simulador')}
-                  className="text-sm hover:bg-[#215ba4] transition"
+                  className="text-sm hover:text-[#215ba4] transition"
                 >
                   Motociclo
                 </button>
@@ -67,7 +67,7 @@ export default function Footer() {
               <li>
                 <button
                   onClick={() => scrollToSection('simulador')}
-                  className="text-sm hover:bg-[#215ba4] transition"
+                  className="text-sm hover:text-[#215ba4] transition"
                 >
                   Casa
                 </button>
@@ -75,7 +75,7 @@ export default function Footer() {
               <li>
                 <button
                   onClick={() => scrollToSection('simulador')}
-                  className="text-sm hover:bg-[#215ba4] transition"
+                  className="text-sm hover:text-[#215ba4] transition"
                 >
                   Saúde
                 </button>
@@ -83,7 +83,7 @@ export default function Footer() {
               <li>
                 <button
                   onClick={() => scrollToSection('simulador')}
-                  className="text-sm hover:bg-[#215ba4] transition"
+                  className="text-sm hover:text-[#215ba4] transition"
                 >
                   Vida
                 </button>
@@ -91,7 +91,7 @@ export default function Footer() {
               <li>
                 <button
                   onClick={() => scrollToSection('simulador')}
-                  className="text-sm hover:bg-[#215ba4] transition"
+                  className="text-sm hover:text-[#215ba4] transition"
                 >
                   Viagem
                 </button>
@@ -99,7 +99,7 @@ export default function Footer() {
               <li>
                 <button
                   onClick={() => scrollToSection('simulador')}
-                  className="text-sm hover:bg-[#215ba4] transition"
+                  className="text-sm hover:text-[#215ba4] transition"
                 >
                   Animal
                 </button>
@@ -107,7 +107,7 @@ export default function Footer() {
               <li>
                 <button
                   onClick={() => scrollToSection('simulador')}
-                  className="text-sm hover:bg-[#215ba4] transition"
+                  className="text-sm hover:text-[#215ba4] transition"
                 >
                   Bicicleta &amp; Trotineta
                 </button>
@@ -120,7 +120,7 @@ export default function Footer() {
               <li>
                 <button
                   onClick={() => scrollToSection('vantagens')}
-                  className="text-sm hover:bg-[#215ba4] transition"
+                  className="text-sm hover:text-[#215ba4] transition"
                 >
                   Sobre Nós
                 </button>
@@ -133,23 +133,23 @@ export default function Footer() {
               <li>
                 <button
                   onClick={() => scrollToSection('contacto')}
-                  className="text-sm hover:bg-[#215ba4] transition"
+                  className="text-sm hover:text-[#215ba4] transition"
                 >
                   Contactos
                 </button>
               </li>
               <li>
-                <a href="#" className="text-sm hover:bg-[#215ba4] transition">
+                <a href="#" className="text-sm hover:text-[#215ba4] transition">
                   FAQs
                 </a>
               </li>
               <li>
-                <a href="#" className="text-sm hover:bg-[#215ba4] transition">
+                <a href="#" className="text-sm hover:text-[#215ba4] transition">
                   Sinistros
                 </a>
               </li>
               <li>
-                <a href="#" className="text-sm hover:bg-[#215ba4] transition">
+                <a href="#" className="text-sm hover:text-[#215ba4] transition">
                   Área de Cliente
                 </a>
               </li>
@@ -164,10 +164,10 @@ export default function Footer() {
             </p>
 
             <div className="flex space-x-6 text-sm">
-              <a href="#" className="hover:bg-[#215ba4] transition">
+              <a href="#" className="hover:text-[#215ba4] transition">
                 Política de Privacidade
               </a>
-              <a href="#" className="hover:bg-[#215ba4] transition">
+              <a href="#" className="hover:text-[#215ba4] transition">
                 Termos de Serviço
               </a>
               <a href="#" className="hover:text-[#215ba4] transition">
