@@ -15,10 +15,10 @@ export default function Footer() {
           <div>
             <div className="flex items-center space-x-2 mb-4">
               <Shield className="h-8 w-8 text-blue-500" />
-              <span className="text-xl font-bold text-white">SeguroTOP</span>
+              <span className="text-xl font-bold text-white">Jorge Marques SegurosP</span>
             </div>
             <p className="text-sm text-gray-400 mb-6">
-              Seguros simples, transparentes e acessíveis para todos os portugueses.
+              Seguramos o presente... Asseguramos o futuro.
             </p>
             <div className="flex space-x-4">
               <a
