@@ -93,21 +93,6 @@ export default function Footer() {
                   Sobre Nós
                 </button>
               </li>
-              <li>
-                <a href="#" className="text-sm hover:text-[#215ba4] transition">
-                  Carreiras
-                </a>
-              </li>
-              <li>
-                <a href="#" className="text-sm hover:text-[#215ba4] transition">
-                  Imprensa
-                </a>
-              </li>
-              <li>
-                <a href="#" className="text-sm hover:text-[#215ba4] transition">
-                  Blog
-                </a>
-              </li>
             </ul>
           </div>
 
@@ -125,16 +110,6 @@ export default function Footer() {
               <li>
                 <a href="#" className="text-sm hover:text-[#215ba4] transition">
                   FAQs
-                </a>
-              </li>
-              <li>
-                <a href="#" className="text-sm hover:text-[#215ba4] transition">
-                  Sinistros
-                </a>
-              </li>
-              <li>
-                <a href="#" className="text-sm hover:text-[#215ba4]0 transition">
-                  Área de Cliente
                 </a>
               </li>
             </ul>
