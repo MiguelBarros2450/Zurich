@@ -170,7 +170,7 @@ export default function Footer() {
               <a href="#" className="hover:bg-[#215ba4] transition">
                 Termos de Serviço
               </a>
-              <a href="#" className="hover:bg-[#215ba4] transition">
+              <a href="#" className="hover:text-[#215ba4] transition">
                 Cookies
               </a>
             </div>
