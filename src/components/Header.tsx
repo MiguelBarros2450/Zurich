@@ -64,7 +64,7 @@ export default function Header() {
 
             <button
               onClick={() => scrollToSection('simulador')}
-              className="bg-blue-600 bg-[#215ba4] text-white px-6 py-2 rounded-lg hover:bg-blue-700 transition"
+              className="bg-[#215ba4] text-white px-6 py-2 rounded-lg hover:bg-[#1c4d8a] transition"
             >
               Simular Agora
             </button>
