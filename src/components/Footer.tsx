@@ -29,7 +29,7 @@ export default function Footer() {
                 href="https://www.facebook.com/jorgemarquesseguros"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="w-10 h-10 bg-gray-800 rounded-lg flex items-center justify-center hover:bg-blue-600 transition"
+                className="w-10 h-10 bg-gray-800 rounded-lg flex items-center justify-center bg-[#215ba4] transition"
                 aria-label="Facebook"
               >
                 <Facebook className="h-5 w-5" />
@@ -38,7 +38,7 @@ export default function Footer() {
                 href="https://www.instagram.com/jorgemarquesseguros/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="w-10 h-10 bg-gray-800 rounded-lg flex items-center justify-center hover:bg-blue-600 transition"
+                className="w-10 h-10 bg-gray-800 rounded-lg flex items-center justify-center bg-[#215ba4] transition"
                 aria-label="Instagram"
               >
                 <Instagram className="h-5 w-5" />
